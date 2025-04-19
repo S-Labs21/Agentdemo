@@ -5,7 +5,7 @@ from google.adk.models import Gemini
 import os
 from litellm import completion
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyAc6824VbYbWH31UJtm0_gifeTv2uhVleU"
+os.environ["GEMINI_API_KEY"] = "your-api-key"
 
 root_agent = Agent(
     name = "simple_chat",
